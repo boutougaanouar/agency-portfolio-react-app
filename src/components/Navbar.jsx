@@ -53,13 +53,13 @@ const Navbar = () => {
                     ))}
                 </ul>
                 {/* mobil device */}
-                {/* <div className='md:hidden' >
+                <div className='md:hidden' >
                     <button className='text-3xl text-neutralDGrey focus:outline-none focus:text-gray-500'>
                         {
                             isMenuOpen ? <Faxmark className='h-6 w-6 ' /> : <FaBars className='h-6 w-6 ' />
                         }
                     </button>
-                </div> */}
+                </div>
             </div>
         </nav>
     </header>
